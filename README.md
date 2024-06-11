@@ -5,7 +5,7 @@
 - 💞️ I’m trying to develop websites.
 
 
-- https://uvarajand.github.io/uvarajan/
+
 
 
 <!---
