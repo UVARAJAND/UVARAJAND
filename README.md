@@ -1,8 +1,9 @@
 - 👋 Hello i'm ✨UVARAJAN✨
 - I am a college student
-- 👀 I’m interested in web development 
-- 🌱 I’m currently learning CSS
-- 💞️ I’m trying to develop websites.
+- 👀 I’m interested in web development and middleware layer integration 
+- 🌱 I’m currently learning React JS
+- 💞️ I’m trying to develop websites and integrating it with backend
+  
 
 
 
