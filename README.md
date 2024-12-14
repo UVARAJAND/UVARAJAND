@@ -46,7 +46,7 @@
 ---
 
 
-<p align=center style="font-size:25px"><b>Database</b><p> 
+<p align=center style="font-size:25px"><b>Tools</b><p> 
 <p align=center>
   <img height="30px" src="https://img.shields.io/badge/Git-%23F05033.svg?style=flat&logo=git&logoColor=white">
   <img height="30px" src="https://img.shields.io/badge/VS%20Code-%23007ACC.svg?style=flat&logo=visual-studio-code&logoColor=white">
