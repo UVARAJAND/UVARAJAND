@@ -104,6 +104,9 @@ Here are a few highlights of the projects I've worked on:
   <a href="https://t.me/uvarajand" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
   </a>   
+  <a href="https://discord.com/users/1084096662412210376" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+  </a>  
 </p>
 
 
