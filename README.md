@@ -5,7 +5,7 @@
 
 # 👨‍💻 About me
 
- ### I'm a passionate Backend DEveloper from India .I love building web applications, exploring Python frameworks, Integrating AI models and participating in hackathons. 🚀
+ ### I'm a passionate Backend Developer from India .I love building web applications, exploring Python frameworks, Integrating AI models and participating in hackathons. 🚀
 
  - 🤖 **Python Developer**: Skilled in creating efficient and scalable backend systems.
  - 🌐 **API Integration Specialist**: Expertise in connecting applications and services seamlessly.
