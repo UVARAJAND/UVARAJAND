@@ -41,6 +41,13 @@
 <p align=center>
   <img height="30px" src="https://img.shields.io/badge/SQLite-%2307405E.svg?style=flat&logo=sqlite&logoColor=white">
   <img height="30px" src="https://img.shields.io/badge/MySQL-%234479A1.svg?style=flat&logo=mysql&logoColor=white">
+</p>
+
+---
+
+
+<p align=center style="font-size:25px"><b>Database</b><p> 
+<p align=center>
   <img height="30px" src="https://img.shields.io/badge/Git-%23F05033.svg?style=flat&logo=git&logoColor=white">
   <img height="30px" src="https://img.shields.io/badge/VS%20Code-%23007ACC.svg?style=flat&logo=visual-studio-code&logoColor=white">
   <img height="30px" src="https://img.shields.io/badge/Postman-%23FF6C37.svg?style=flat&logo=postman&logoColor=white">
