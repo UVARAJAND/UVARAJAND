@@ -1,2 +1,2 @@
+<img src="./assets/edited.png" style="width:100%;height:auto;">
 
-<h1 align="center">Hello!, I am UVARAJAN D</h1>
