@@ -69,26 +69,7 @@
 <p align=center>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=UVARAJAND&show_icons=true&bg_color=000000&title_color=38b6ff&text_color=ffffff&icon_color=38b6ff&cache_buster=12345">
 
---- 
-
-
-### 🚀 My Projects
-
-Here are a few highlights of the projects I've worked on:
-
-1. **[Weather Card](https://github.com/UVARAJAND/weather-card):** A weather display application using HTML, CSS, JS, and the AccuWeather API.
-2. **Frontend Mentor Challenges:** Implemented designs like Huddle Landing Page, Results Summary Component, and QR Code Component.
-3. **[SkillSync](https://github.com/UVARAJAND/skillsync):** Resume parser and skills matcher built with the Bottle framework for the Minded Hackathon.
-4. **Hydrolite:** A mini-project exploring renewable energy through piezoelectric transducers.
-5. **[OpenBookAI](https://github.com/UVARAJAND/openbookai):** AI model response analyzer; ranked 10th in the "Solstice by APEERS" hackathon.
-6. **[Task Storager](https://github.com/UVARAJAND/task-storager):** A Django-based task management application with SQLite database.
-7. **SDWAN Controller:** Contributed to backend development for dynamic traffic routing using OpenFlow and SDN.
-8. **[Codepen Clone](https://github.com/UVARAJAND/codepen-clone):** A code-sharing platform built with ReactJS.
-9. **[Flipkart Grid 6.0 Project](https://github.com/UVARAJAND/flipkart-grid-6.0):** Website and backend development for object detection and text extraction models.
-
 ---
-
-
 # 🔗 Connect With Me  
 
 <p align=center>
