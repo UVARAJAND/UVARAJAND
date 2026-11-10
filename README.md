@@ -1,104 +1,128 @@
-<img src="./assets/edited.png" style="width:100%;height:auto;">
+<div align="center">
+  <img src="./assets/header.svg" width="100%" alt="Uvarajan D — AI Integration and Automation Engineer, Backend Developer, System Design"/>
+</div>
 
+<br/>
 
-# 
+<div align="center">
+  <img src="./assets/ticker.svg" width="100%" alt="Integrating LLMs, automating pipelines and designing backends"/>
+</div>
 
-# 👨‍💻 About me
+<br/>
 
- ### I'm a passionate Backend Developer from India .I love building web applications, exploring Python frameworks, Integrating AI models and participating in hackathons. 🚀
+<div align="center">
 
- - 🤖 **Python Developer**: Skilled in creating efficient and scalable backend systems.
- - 🌐 **API Integration Specialist**: Expertise in connecting applications and services seamlessly.
- - 💻 **Junior Web Developer**: Passionate about building intuitive and responsive web applications.
- - 🎯 **Goal**: To contribute to innovative tech solutions that make an impact.
+<a href="http://uvarajan-d.vercel.app/"><img src="./assets/btn-portfolio.svg" height="44" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/uvarajan-dev"><img src="./assets/btn-linkedin.svg" height="44" alt="LinkedIn"/></a>
+<a href="https://t.me/uvarajand"><img src="./assets/btn-telegram.svg" height="44" alt="Telegram"/></a>
+<a href="mailto:uvarajandev@gmail.com"><img src="./assets/btn-email.svg" height="44" alt="Email"/></a>
+<a href="https://github.com/UVARAJAND"><img src="./assets/btn-github.svg" height="44" alt="GitHub"/></a>
 
----
+</div>
 
-# 🛠️ Tech Stack
+<br/>
 
-<p align=center style="font-size:25px"><b>Programming Languages</b><p> 
-<p align="center">
-  <img height="30px" src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black">
-  <img height="30px" src="https://img.shields.io/badge/React-%2361DAFB.svg?style=flat&logo=react&logoColor=black">
-  <img height="30px" src="https://img.shields.io/badge/Python-%23C00000.svg?style=flat&logo=python&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/C-%2300599C.svg?style=flat&logo=c&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/C%2B%2B-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/Java-%23F8C300.svg?style=flat&logo=java&logoColor=white">
-</p>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt=""/></div>
 
----
+<div align="center"><img src="./assets/label-whoami.svg" width="100%" alt="Whoami"/></div>
 
-<p align=center style="font-size:25px"><b>Frameworks</b><p> 
-<p align=center>
-  <img height="30px" src="https://img.shields.io/badge/Flask-%23000.svg?style=flat&logo=flask&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/Django-%23092E20.svg?style=flat&logo=django&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/FastAPI-%2300C7B7.svg?style=flat&logo=fastapi&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/Bottle-%23C00000.svg?style=flat&logo=python&logoColor=white">
-</p>
+<br/>
 
----
+<div align="center"><img src="./assets/whoami-focus.svg" width="100%" alt="whoami and current focus terminal panels"/></div>
 
-<p align=center style="font-size:25px"><b>Database</b><p> 
-<p align=center>
-  <img height="30px" src="https://img.shields.io/badge/SQLite-%2307405E.svg?style=flat&logo=sqlite&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/MySQL-%234479A1.svg?style=flat&logo=mysql&logoColor=white">
-</p>
+<br/>
 
----
+<div align="center"><img src="./assets/label-capabilities.svg" width="100%" alt="What I build"/></div>
 
+<br/>
 
-<p align=center style="font-size:25px"><b>Tools</b><p> 
-<p align=center>
-  <img height="30px" src="https://img.shields.io/badge/Git-%23F05033.svg?style=flat&logo=git&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/VS%20Code-%23007ACC.svg?style=flat&logo=visual-studio-code&logoColor=white">
-  <img height="30px" src="https://img.shields.io/badge/Postman-%23FF6C37.svg?style=flat&logo=postman&logoColor=white">
-</p>
+<div align="center"><img src="./assets/capabilities.svg" width="100%" alt="Capabilities: AI integration, automation, backend and system design"/></div>
 
----
+<br/>
 
-### 📊 GitHub Stats
+<div align="center"><img src="./assets/label-architecture.svg" width="100%" alt="System architecture"/></div>
 
-<p align=center>
-<img width=500px src="https://github-readme-stats.vercel.app/api?username=UVARAJAND&show_icons=true&bg_color=000000&title_color=38b6ff&text_color=ffffff&icon_color=38b6ff">
-</p>
-<p align=center>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UVARAJAND&layout=compact&bg_color=000000&title_color=38b6ff&text_color=ffffff&icon_color=38b6ff">
-</p>
-<p align=center>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=UVARAJAND&show_icons=true&bg_color=000000&title_color=38b6ff&text_color=ffffff&icon_color=38b6ff&cache_buster=12345">
+<br/>
 
----
-# 🔗 Connect With Me  
+<div align="center"><img src="./assets/architecture.svg" width="100%" alt="Architecture: client to FastAPI to queue to AI layer to data layer, with a reliability layer"/></div>
 
-<p align=center>
-  <a href="https://github.com/UVARAJAND" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>    
-  <a href="https://www.linkedin.com/in/uvarajandev" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>  
-  <a href="mailto:uvarajandev@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>   
-  <a href="https://t.me/uvarajand" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>   
-  <a href="https://discord.com/users/1084096662412210376" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
-  </a>  
-</p>
+> **How I think about it:** validate at the edge, enqueue the slow work, isolate every AI provider behind a contract, make retries idempotent, persist the result, and instrument the whole path.
 
-🌐 Portfolio: https://uvarajan-d.vercel.app
+<br/>
 
+<div align="center"><img src="./assets/label-work.svg" width="100%" alt="Selected work"/></div>
 
+<br/>
 
+<a href="https://github.com/UVARAJAND/Observe-AI---AI-Proctoring-and-Examination-Platform"><img src="./assets/card-01.svg" width="100%" alt="OBSERVE AI project card"/></a>
 
+### 01 · Observe AI — Agentic Proctoring Platform
 
+- Multi-service monorepo: FastAPI core API, React dashboards, PyQt6 proctoring client, Docker code-execution sandbox, LangGraph question morphing, JIT generation and report publishing.
+- PostgreSQL on Neon for domain data, Supabase Storage for evidence and report artifacts, Groq as the primary LLM with Gemini fallbacks.
+- JWT auth for web roles and HMAC-signed requests for the desktop client; signed telemetry flows through the report pipeline.
+- Coordinates adaptive exams, isolated code execution and proctoring evidence end to end.
 
+`Python`  `FastAPI`  `React`  `PyQt6`  `Docker`  `LangGraph`  `PostgreSQL`  `Supabase`
 
+<a href="https://github.com/UVARAJAND/Autonomous-Legel-Entity-for-Contracts"><img src="./assets/card-02.svg" width="100%" alt="ALEC project card"/></a>
 
+### 02 · ALEC — Autonomous Legal Entity for Contracts
 
+> Team project — Code Blenders
 
+- Risk analysis at clause level with BERT-large and SHAP explanations, plus summarization, company diligence and contract drafting services.
+- Company diligence aggregates OpenCorporates, SerpAPI, AlphaVantage and NewsAPI into one reviewable report.
+- RAG over Pinecone with All-MiniLM-L6-v2 embeddings; LLaMA 3.3 70B handles generation and drafting.
+- Template-based and autonomous negotiation flows share one document and session store.
 
+`React`  `FastAPI`  `MongoDB`  `Pinecone`  `BERT`  `SHAP`  `LLaMA 3.3 70B`
+
+<a href="https://github.com/UVARAJAND/AI-Powered-Knowledge-Retrieval-with-Agentic-RAG"><img src="./assets/card-03.svg" width="100%" alt="AGENTIC RAG project card"/></a>
+
+### 03 · Agentic RAG — Knowledge Retrieval
+
+> Team project — Code Blenders
+
+- Multi-agent RAG over the Bhagavad Gita and Yoga Sutras, with query refinement, semantic retrieval and a feedback loop.
+- Pinecone stores Sentence Transformers embeddings; Llama 3.3 70B runs through Ollama for offline use or Groq for hosted inference.
+- FastAPI application with SQLite session history and a JSON output format for traceable answers.
+- Evaluated on a 46-question set spanning both source texts, with saved outputs for review.
+
+`Python`  `FastAPI`  `Pinecone`  `Sentence Transformers`  `Llama 3.3`  `Ollama`  `Groq`
+
+<div align="center"><img src="./assets/label-stack.svg" width="100%" alt="Tech stack"/></div>
+
+<br/>
+
+<div align="center"><img src="./assets/stack-marquee.svg" width="100%" alt="Technology stack"/></div>
+
+<br/>
+
+<div align="center"><img src="./assets/label-telemetry.svg" width="100%" alt="GitHub telemetry"/></div>
+
+<br/>
+
+<div align="center">
+  <img src="https://camo.githubusercontent.com/a7755dbf4f2aaa452c59acf609a119cc114ed749dc4c929bcb2511162bea2167/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d55564152414a414e442673686f775f69636f6e733d747275652662675f636f6c6f723d303030303030267469746c655f636f6c6f723d33386236666626746578745f636f6c6f723d6666666666662669636f6e5f636f6c6f723d3338623666662663616368655f6275737465723d3132333435" width="495" alt="GitHub streak stats: total contributions, current streak, longest streak"/>
+</div>
+
+<br/>
+
+<div align="center"><img src="./assets/label-activity.svg" width="100%" alt="Activity matrix"/></div>
+
+<br/>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution snake" src="./assets/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+<br/>
+
+<div align="center"><img src="./assets/footer.svg" width="100%" alt="Uvarajan D — AI integration, automation, backend, system design"/></div>

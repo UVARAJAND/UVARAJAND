@@ -1,0 +1,134 @@
+{
+  "name": "Uvarajan D",
+  "handle": "UVARAJAND",
+  "headline": "AI INTEGRATION & AUTOMATION ENGINEER",
+  "subheadline": "Backend Developer  /  System Design",
+  "tagline": "Building scalable products",
+  "location": "Cuddalore, India",
+  "email": "uvarajandev@gmail.com",
+  "links": {
+    "portfolio": "http://uvarajan-d.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/uvarajan-dev",
+    "telegram": "https://t.me/uvarajand",
+    "github": "https://github.com/UVARAJAND",
+    "email": "mailto:uvarajandev@gmail.com"
+  },
+  "typing_lines": [
+    "Integrating LLMs into production backends",
+    "Designing event-driven automation pipelines",
+    "FastAPI  ·  PostgreSQL  ·  Redis  ·  Celery",
+    "RAG  ·  Agentic workflows  ·  Tool calling",
+    "System design for AI-powered products"
+  ],
+  "chips": [
+    "Multi-tier architecture",
+    "API Development",
+    "LLM Integration",
+    "Multi-stack Integration"
+  ],
+  "whoami": [
+    ["name", "Uvarajan D"],
+    ["role", "AI Integration & Automation Engineer"],
+    ["focus", "Backend Development / System Design"],
+    ["location", "Cuddalore, India"],
+    ["stack", "Python · FastAPI · PostgreSQL"],
+    ["building", "AI-powered products & automation"],
+    ["contact", "uvarajandev@gmail.com"],
+    ["status", "Open to AI / Backend roles"]
+  ],
+  "focus": [
+    "AI integration & LLM APIs",
+    "Workflow automation",
+    "Backend architecture",
+    "System design",
+    "RAG & vector search",
+    "Reliable API contracts"
+  ],
+  "capabilities": [
+    {
+      "index": "01",
+      "title": "AI INTEGRATION",
+      "subtitle": "Connect models to products — not demos.",
+      "bullets": [
+        "LLM APIs, streaming & fallbacks",
+        "RAG pipelines and vector search",
+        "Tool / function calling",
+        "Prompt, context & cost control"
+      ],
+      "tags": ["OpenAI", "Groq", "Gemini", "Pinecone"]
+    },
+    {
+      "index": "02",
+      "title": "AUTOMATION",
+      "subtitle": "Remove manual steps from the critical path.",
+      "bullets": [
+        "Event and webhook pipelines",
+        "Queues and scheduled jobs",
+        "Idempotent, retry-safe workflows",
+        "Failure handling and alerts"
+      ],
+      "tags": ["Celery", "Redis", "Cron", "Webhooks"]
+    },
+    {
+      "index": "03",
+      "title": "BACKEND & SYSTEM DESIGN",
+      "subtitle": "Services that stay correct under load.",
+      "bullets": [
+        "API contracts, auth & validation",
+        "Data modeling and storage",
+        "Caching, scaling and isolation",
+        "Logs, metrics and observability"
+      ],
+      "tags": ["FastAPI", "PostgreSQL", "Docker", "JWT"]
+    }
+  ],
+  "projects": [
+    {
+      "index": "01",
+      "title": "OBSERVE AI",
+      "eyebrow": "FLAGSHIP  /  AGENTIC PROCTORING",
+      "tagline": "A multi-service assessment platform with adaptive AI generation, a secure desktop proctoring client and a report-publishing pipeline.",
+      "flow": [
+        ["React + PyQt6", "clients"],
+        ["FastAPI", "core API"],
+        ["LangGraph", "agent layer"],
+        ["Groq · Gemini", "LLM layer"]
+      ],
+      "chips": ["PostgreSQL / Neon", "Supabase", "Docker sandbox", "JWT + HMAC"],
+      "url": "https://github.com/UVARAJAND/Observe-AI---AI-Proctoring-and-Examination-Platform"
+    },
+    {
+      "index": "02",
+      "title": "ALEC",
+      "eyebrow": "AUTONOMOUS LEGAL ENTITY FOR CONTRACTS",
+      "tagline": "An agentic contract platform covering clause-level risk analysis, summarization, company diligence and autonomous drafting.",
+      "flow": [
+        ["React", "interface"],
+        ["FastAPI", "services"],
+        ["BERT + SHAP", "risk / XAI"],
+        ["LLaMA 3.3 70B", "drafting"]
+      ],
+      "chips": ["MongoDB", "Pinecone", "RAG", "4 external APIs"],
+      "url": "https://github.com/UVARAJAND/Autonomous-Legel-Entity-for-Contracts"
+    },
+    {
+      "index": "03",
+      "title": "AGENTIC RAG",
+      "eyebrow": "KNOWLEDGE RETRIEVAL  /  GITA + YOGA SUTRAS",
+      "tagline": "A multi-agent retrieval system that answers domain questions with cited context, built and evaluated during the NYD Hackathon.",
+      "flow": [
+        ["FastAPI", "application"],
+        ["Pinecone", "vector search"],
+        ["Llama 3.3", "generation"],
+        ["SQLite", "sessions"]
+      ],
+      "chips": ["Sentence Transformers", "Ollama", "Groq", "46-question eval"],
+      "url": "https://github.com/UVARAJAND/AI-Powered-Knowledge-Retrieval-with-Agentic-RAG"
+    }
+  ],
+  "stack": [
+    ["LANGUAGES / BACKEND", ["Python", "FastAPI", "Flask", "PostgreSQL", "MongoDB", "SQLite", "Redis", "Celery", "Docker", "Git"]],
+    ["AI / AUTOMATION", ["OpenAI", "Groq", "Gemini", "LangGraph", "RAG", "Pinecone", "Sentence Transformers", "Ollama", "Function Calling"]],
+    ["SYSTEMS / OPS", ["REST APIs", "Webhooks", "JWT", "HMAC", "Supabase", "Neon", "Cron", "Idempotency", "Observability"]]
+  ]
+}
