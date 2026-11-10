@@ -53,47 +53,6 @@
 
 <br/>
 
-<div align="center"><img src="./assets/label-work.svg" width="100%" alt="Selected work"/></div>
-
-<br/>
-
-<a href="https://github.com/UVARAJAND/Observe-AI---AI-Proctoring-and-Examination-Platform"><img src="./assets/card-01.svg" width="100%" alt="OBSERVE AI project card"/></a>
-
-### 01 · Observe AI — Agentic Proctoring Platform
-
-- Multi-service monorepo: FastAPI core API, React dashboards, PyQt6 proctoring client, Docker code-execution sandbox, LangGraph question morphing, JIT generation and report publishing.
-- PostgreSQL on Neon for domain data, Supabase Storage for evidence and report artifacts, Groq as the primary LLM with Gemini fallbacks.
-- JWT auth for web roles and HMAC-signed requests for the desktop client; signed telemetry flows through the report pipeline.
-- Coordinates adaptive exams, isolated code execution and proctoring evidence end to end.
-
-`Python`  `FastAPI`  `React`  `PyQt6`  `Docker`  `LangGraph`  `PostgreSQL`  `Supabase`
-
-<a href="https://github.com/UVARAJAND/Autonomous-Legel-Entity-for-Contracts"><img src="./assets/card-02.svg" width="100%" alt="ALEC project card"/></a>
-
-### 02 · ALEC — Autonomous Legal Entity for Contracts
-
-> Team project — Code Blenders
-
-- Risk analysis at clause level with BERT-large and SHAP explanations, plus summarization, company diligence and contract drafting services.
-- Company diligence aggregates OpenCorporates, SerpAPI, AlphaVantage and NewsAPI into one reviewable report.
-- RAG over Pinecone with All-MiniLM-L6-v2 embeddings; LLaMA 3.3 70B handles generation and drafting.
-- Template-based and autonomous negotiation flows share one document and session store.
-
-`React`  `FastAPI`  `MongoDB`  `Pinecone`  `BERT`  `SHAP`  `LLaMA 3.3 70B`
-
-<a href="https://github.com/UVARAJAND/AI-Powered-Knowledge-Retrieval-with-Agentic-RAG"><img src="./assets/card-03.svg" width="100%" alt="AGENTIC RAG project card"/></a>
-
-### 03 · Agentic RAG — Knowledge Retrieval
-
-> Team project — Code Blenders
-
-- Multi-agent RAG over the Bhagavad Gita and Yoga Sutras, with query refinement, semantic retrieval and a feedback loop.
-- Pinecone stores Sentence Transformers embeddings; Llama 3.3 70B runs through Ollama for offline use or Groq for hosted inference.
-- FastAPI application with SQLite session history and a JSON output format for traceable answers.
-- Evaluated on a 46-question set spanning both source texts, with saved outputs for review.
-
-`Python`  `FastAPI`  `Pinecone`  `Sentence Transformers`  `Llama 3.3`  `Ollama`  `Groq`
-
 <div align="center"><img src="./assets/label-stack.svg" width="100%" alt="Tech stack"/></div>
 
 <br/>

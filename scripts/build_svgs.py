@@ -351,10 +351,9 @@ def build_labels() -> None:
         ("whoami", "01", "WHOAMI", "IDENTITY  /  FOCUS"),
         ("capabilities", "02", "WHAT I BUILD", "INTEGRATE  /  AUTOMATE  /  DESIGN"),
         ("architecture", "03", "SYSTEM ARCHITECTURE", "REQUEST LIFECYCLE"),
-        ("work", "04", "SELECTED WORK", "BUILT  /  SHIPPED  /  EVALUATED"),
-        ("stack", "05", "TECH STACK", "TOOLS I ACTUALLY USE"),
-        ("telemetry", "06", "GITHUB TELEMETRY", "TOTAL  /  CURRENT  /  LONGEST"),
-        ("activity", "07", "ACTIVITY MATRIX", "CONTRIBUTION ACTIVITY  /  SNAKE"),
+        ("stack", "04", "TECH STACK", "TOOLS I ACTUALLY USE"),
+        ("telemetry", "05", "GITHUB TELEMETRY", "TOTAL  /  CURRENT  /  LONGEST"),
+        ("activity", "06", "ACTIVITY MATRIX", "CONTRIBUTION ACTIVITY  /  SNAKE"),
     ]
     for slug, index, title, right in labels:
         write(f"label-{slug}.svg", build_label(index, title, right))
@@ -726,17 +725,6 @@ def build_buttons() -> None:
 # ── README ────────────────────────────────────────────────────────────────────
 def build_readme() -> None:
     links = PROFILE["links"]
-    p = PROFILE["projects"]
-
-    def project_block(index: int, heading: str, bullets: list[str], tags: str, note: str = "") -> str:
-        item = p[index]
-        out = f'<a href="{item["url"]}"><img src="./assets/card-{item["index"]}.svg" width="100%" alt="{item["title"]} project card"/></a>\n\n'
-        out += f'### {item["index"]} · {heading}\n\n'
-        if note:
-            out += f"> {note}\n\n"
-        out += "\n".join(f"- {b}" for b in bullets) + "\n\n"
-        out += "  ".join(f"`{t.strip()}`" for t in tags.split("·")) + "\n\n"
-        return out.rstrip()
 
     readme = f"""<div align="center">
   <img src="./assets/header.svg" width="100%" alt="Uvarajan D — AI Integration and Automation Engineer, Backend Developer, System Design"/>
@@ -792,31 +780,6 @@ def build_readme() -> None:
 > **How I think about it:** validate at the edge, enqueue the slow work, isolate every AI provider behind a contract, make retries idempotent, persist the result, and instrument the whole path.
 
 <br/>
-
-<div align="center"><img src="./assets/label-work.svg" width="100%" alt="Selected work"/></div>
-
-<br/>
-
-{project_block(0, "Observe AI — Agentic Proctoring Platform", [
-    "Multi-service monorepo: FastAPI core API, React dashboards, PyQt6 proctoring client, Docker code-execution sandbox, LangGraph question morphing, JIT generation and report publishing.",
-    "PostgreSQL on Neon for domain data, Supabase Storage for evidence and report artifacts, Groq as the primary LLM with Gemini fallbacks.",
-    "JWT auth for web roles and HMAC-signed requests for the desktop client; signed telemetry flows through the report pipeline.",
-    "Coordinates adaptive exams, isolated code execution and proctoring evidence end to end.",
-], "Python · FastAPI · React · PyQt6 · Docker · LangGraph · PostgreSQL · Supabase")}
-
-{project_block(1, "ALEC — Autonomous Legal Entity for Contracts", [
-    "Risk analysis at clause level with BERT-large and SHAP explanations, plus summarization, company diligence and contract drafting services.",
-    "Company diligence aggregates OpenCorporates, SerpAPI, AlphaVantage and NewsAPI into one reviewable report.",
-    "RAG over Pinecone with All-MiniLM-L6-v2 embeddings; LLaMA 3.3 70B handles generation and drafting.",
-    "Template-based and autonomous negotiation flows share one document and session store.",
-], "React · FastAPI · MongoDB · Pinecone · BERT · SHAP · LLaMA 3.3 70B", "Team project — Code Blenders")}
-
-{project_block(2, "Agentic RAG — Knowledge Retrieval", [
-    "Multi-agent RAG over the Bhagavad Gita and Yoga Sutras, with query refinement, semantic retrieval and a feedback loop.",
-    "Pinecone stores Sentence Transformers embeddings; Llama 3.3 70B runs through Ollama for offline use or Groq for hosted inference.",
-    "FastAPI application with SQLite session history and a JSON output format for traceable answers.",
-    "Evaluated on a 46-question set spanning both source texts, with saved outputs for review.",
-], "Python · FastAPI · Pinecone · Sentence Transformers · Llama 3.3 · Ollama · Groq", "Team project — Code Blenders")}
 
 <div align="center"><img src="./assets/label-stack.svg" width="100%" alt="Tech stack"/></div>
 
@@ -927,8 +890,6 @@ def main() -> None:
     build_terminals()
     build_capabilities()
     build_architecture()
-    for project in PROFILE["projects"]:
-        build_project_card(project)
     build_stack()
     build_footer()
     build_buttons()
