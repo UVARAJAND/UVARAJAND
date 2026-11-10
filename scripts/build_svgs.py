@@ -197,26 +197,9 @@ def base_defs(w: int, h: int, warm_x: float = 0, warm_y: float = 0, warm_r: floa
 
 # ── ticker ────────────────────────────────────────────────────────────────────
 def build_ticker() -> None:
-    w, h = 1200, 54
+    w, h = 1200, 68
     lines = [" ".join(line.split()) for line in PROFILE["typing_lines"]]
     delays = [-0.3, 4.7, 9.7, 14.7, 19.7]
-    b = rect(0, 0, w, h, 10, "#0C121C", SLATE_700, 1.1)
-    b += rect(0, 0, 4, h, 2, AMBER)
-    b += text(24, 33, ">_", 13, AMBER, 700, MONO, letter=1)
-    b += text(56, 32, "[ WHAT I DO ]", 10, MUTED, 600, MONO, letter=1.4)
-    b += line(164, 14, 164, 40, SLATE_600, 0.9)
-    for i, phrase in enumerate(lines):
-        b += (
-            f'<g class="line line{i+1}" style="animation-delay:{delays[i]}s">'
-            f'{text(186, 34, phrase, 15, TEXT_SOFT, 500, MONO, letter=0.2)}</g>'
-        )
-    # small signal meter
-    b += text(1006, 19, "SIGNAL", 7.5, FAINT, 500, MONO, letter=1.2)
-    heights = [8, 14, 6, 18, 11, 22, 9, 16, 7, 13, 9, 19]
-    for i, bar_h in enumerate(heights):
-        b += rect(1008 + i * 9, 27 - bar_h / 2, 4, bar_h, 2, AMBER, opacity=0.22 + (i % 4) * 0.16)
-    b += f'<rect x="1150" y="19" width="8" height="16" rx="1.5" fill="{AMBER}" class="cursor"/>'
-    b += text(1174, 32, "LIVE", 9, FAINT, 500, MONO, letter=1.4)
     css = """<style>
   .line { opacity: 0; animation: slide 25s infinite; }
   @keyframes slide {
@@ -226,10 +209,20 @@ def build_ticker() -> None:
     20% { opacity: 0; transform: translateY(-6px); }
     100% { opacity: 0; }
   }
-  .cursor { animation: blink 1.1s step-end infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
 </style>"""
-    write("ticker.svg", svg(w, h, b, base_defs(w, h, 500, 27, 420) + css, "Rotating list of what I do"))
+    variants = (
+        ("ticker.svg", AMBER, TEXT),
+        ("ticker-light.svg", AMBER_DEEP, INK_900),
+    )
+    for name, label_color, phrase_color in variants:
+        b = text(600, 18, "WHAT I DO", 11, label_color, 600, MONO, "middle", letter=2.4)
+        b += line(588, 26, 612, 26, label_color, 1.2, opacity=0.55)
+        for i, phrase in enumerate(lines):
+            b += (
+                f'<g class="line line{i+1}" style="animation-delay:{delays[i]}s">'
+                f'{text(600, 52, phrase, 24, phrase_color, 500, MONO, "middle", letter=0.2)}</g>'
+            )
+        write(name, svg(w, h, b, css, "Rotating list of what I do"))
 
 
 # ── header ────────────────────────────────────────────────────────────────────
@@ -717,7 +710,6 @@ def build_buttons() -> None:
         ("linkedin", "LINKEDIN", "linkedin"),
         ("telegram", "TELEGRAM", "telegram"),
         ("email", "EMAIL", "mail"),
-        ("github", "GITHUB", "github"),
     ]
     for slug, label, icon in buttons:
         w, h = 190, 44
@@ -753,7 +745,11 @@ def build_readme() -> None:
 <br/>
 
 <div align="center">
-  <img src="./assets/ticker.svg" width="100%" alt="Integrating LLMs, automating pipelines and designing backends"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/ticker.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/ticker-light.svg"/>
+    <img src="./assets/ticker.svg" width="100%" alt="Integrating LLMs, automating pipelines and designing backends"/>
+  </picture>
 </div>
 
 <br/>
@@ -764,7 +760,6 @@ def build_readme() -> None:
 <a href="{links['linkedin']}"><img src="./assets/btn-linkedin.svg" height="44" alt="LinkedIn"/></a>
 <a href="{links['telegram']}"><img src="./assets/btn-telegram.svg" height="44" alt="Telegram"/></a>
 <a href="{links['email']}"><img src="./assets/btn-email.svg" height="44" alt="Email"/></a>
-<a href="{links['github']}"><img src="./assets/btn-github.svg" height="44" alt="GitHub"/></a>
 
 </div>
 

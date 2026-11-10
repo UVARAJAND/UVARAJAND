@@ -5,7 +5,11 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/ticker.svg" width="100%" alt="Integrating LLMs, automating pipelines and designing backends"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/ticker.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/ticker-light.svg"/>
+    <img src="./assets/ticker.svg" width="100%" alt="Integrating LLMs, automating pipelines and designing backends"/>
+  </picture>
 </div>
 
 <br/>
@@ -16,7 +20,6 @@
 <a href="https://www.linkedin.com/in/uvarajan-dev"><img src="./assets/btn-linkedin.svg" height="44" alt="LinkedIn"/></a>
 <a href="https://t.me/uvarajand"><img src="./assets/btn-telegram.svg" height="44" alt="Telegram"/></a>
 <a href="mailto:uvarajandev@gmail.com"><img src="./assets/btn-email.svg" height="44" alt="Email"/></a>
-<a href="https://github.com/UVARAJAND"><img src="./assets/btn-github.svg" height="44" alt="GitHub"/></a>
 
 </div>
 

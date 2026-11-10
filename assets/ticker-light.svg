@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="68" viewBox="0 0 1200 68" role="img" aria-label="Rotating list of what I do">
+<defs><style>
+  .line { opacity: 0; animation: slide 25s infinite; }
+  @keyframes slide {
+    0% { opacity: 0; transform: translateY(6px); }
+    1.2% { opacity: 1; transform: translateY(0); }
+    18% { opacity: 1; transform: translateY(0); }
+    20% { opacity: 0; transform: translateY(-6px); }
+    100% { opacity: 0; }
+  }
+</style></defs>
+<text x="600" y="18" fill="#8F5F0A" font-size="11" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-weight="600" text-anchor="middle" letter-spacing="2.4">WHAT I DO</text><line x1="588" y1="26" x2="612" y2="26" stroke="#8F5F0A" stroke-width="1.2" opacity="0.55"/><g class="line line1" style="animation-delay:-0.3s"><text x="600" y="52" fill="#0A0D14" font-size="24" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-weight="500" text-anchor="middle" letter-spacing="0.2">Integrating LLMs into production backends</text></g><g class="line line2" style="animation-delay:4.7s"><text x="600" y="52" fill="#0A0D14" font-size="24" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-weight="500" text-anchor="middle" letter-spacing="0.2">Designing event-driven automation pipelines</text></g><g class="line line3" style="animation-delay:9.7s"><text x="600" y="52" fill="#0A0D14" font-size="24" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-weight="500" text-anchor="middle" letter-spacing="0.2">FastAPI · PostgreSQL · Redis · Celery</text></g><g class="line line4" style="animation-delay:14.7s"><text x="600" y="52" fill="#0A0D14" font-size="24" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-weight="500" text-anchor="middle" letter-spacing="0.2">RAG · Agentic workflows · Tool calling</text></g><g class="line line5" style="animation-delay:19.7s"><text x="600" y="52" fill="#0A0D14" font-size="24" font-family="Consolas, 'JetBrains Mono', 'Courier New', monospace" font-weight="500" text-anchor="middle" letter-spacing="0.2">System design for AI-powered products</text></g>
+</svg>
